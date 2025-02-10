@@ -163,6 +163,12 @@ $ curl -X GET http://${rest_api_id}.execute-api.localhost.localstack.cloud:4566/
 {"message":"Hello from Lambda"}
 ```
 
+###
+
+```bash
+$ localstack stop
+```
+
 ## Terraform
 .
 .
