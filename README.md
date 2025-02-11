@@ -170,9 +170,14 @@ $ localstack stop
 ```
 
 ## Terraform
-.
-.
-.
+
+Refer to th `*.tf` files.
+
+The `stage_name` attribute of the `aws_api_gateway_deployment` resource is deprecated. Instead, an explicit `aws_api_gateway_stage` resource is used.
+
+All dependencies are implicit. Resources are created in correct order.
+
 ## References
 
 * [API Gateway on LocalStack Guide](https://docs.localstack.cloud/user-guide/aws/apigateway/)
+* 

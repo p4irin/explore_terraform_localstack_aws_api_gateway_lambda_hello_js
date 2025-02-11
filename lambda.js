@@ -6,6 +6,8 @@ const apiHandler = (payload, context, callback) => {
         statusCode: 200,
         body: JSON.stringify({
             message: 'Hello from Lambda',
+            // payload: payload,
+            // context: context
         }),
     }); 
 }
